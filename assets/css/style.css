@@ -153,23 +153,7 @@ h6 {
     padding-left: 12px;
     padding-right: 12px;
   }
-
-  .col-lg-10 ul li {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-
-  .col-lg-10 ul li strong {
-    min-width: 100px; /* Atur lebar minimum untuk label */
-    flex: 0 0 100px; /* Tetapkan lebar tetap untuk label */
-  }
-
-  .col-lg-10 ul li span {
-    flex: 1; /* Biarkan span mengambil sisa ruang */
-  }
 }
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
