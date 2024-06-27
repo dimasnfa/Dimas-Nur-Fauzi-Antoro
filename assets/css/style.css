@@ -140,34 +140,33 @@ h6 {
 }
 
 @media (max-width: 1199px) {
-  .row {
-    flex-direction: column;
+  #header {
+    left: -300px;
   }
 
-  .col-lg-10,
-  .col-lg-6 {
-    width: 100%;
-    margin-bottom: 20px;
+  #main {
+    margin-left: 0;
   }
 
-  ul {
-    padding: 0;
-    list-style-type: none;
+  .container,
+  .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
-  ul li {
-    margin-bottom: 10px;
-    padding-left: 0;
+  .col-lg-10 ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
   }
 
-  ul li strong {
-    display: inline-block;
-    width: 100px; /* Adjust width as needed */
+  .col-lg-10 ul li strong {
+    min-width: 100px; /* Atur lebar minimum untuk label */
+    flex: 0 0 100px; /* Tetapkan lebar tetap untuk label */
   }
 
-  ul li span {
-    display: inline-block;
-    width: calc(100% - 100px); /* Adjust width as needed */
+  .col-lg-10 ul li span {
+    flex: 1; /* Biarkan span mengambil sisa ruang */
   }
 }
 
